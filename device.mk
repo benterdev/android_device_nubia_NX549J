@@ -74,6 +74,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     audiod \
     audio.a2dp.default \
+    audio.primary.msm8953 \
     audio.r_submix.default \
     audio.usb.default \
     libaudio-resampler \
@@ -127,10 +128,10 @@ PRODUCT_BOOT_JARS += \
     dpmapi
 
 # Ebtables
-PRODUCT_PACKAGES += \
-    ebtables \
-    ethertypes \
-    libebtc
+#PRODUCT_PACKAGES += \
+#    ebtables \
+#    ethertypes \
+#    libebtc
 
 # Fingerprint
 PRODUCT_PACKAGES += \
@@ -281,6 +282,7 @@ PRODUCT_PACKAGES += \
     wpa_supplicant_overlay.conf
 
 PRODUCT_PACKAGES += \
+    libwifi-hal-qcom \
     libcurl \
     libqsap_sdk \
     libQWiFiSoftApCfg \
